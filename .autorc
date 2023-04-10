@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "git-tag",
+    "all-contributors",
+    "first-time-contributor",
+    "released"
+  ],
+  "owner": "vdcsolutions",
+  "repo": "container-syuwwvi",
+  "name": "vdcsolutions",
+}
