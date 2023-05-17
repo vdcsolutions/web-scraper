@@ -1,0 +1,9 @@
+[submodule "scraping-api"]
+	path = scraping-api
+	url = https://github.com/vdcsolutions/scraping-api
+[submodule "free-proxy-api"]
+	path = free-proxy-api
+	url = https://github.com/vdcsolutions/free-proxy-api
+[submodule "scraping-frontend"]
+	path = scraping-frontend
+	url = https://github.com/vdcsolutions/scraping-frontend
