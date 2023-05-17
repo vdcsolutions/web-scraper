@@ -10,7 +10,7 @@ Scraping District is a collection of microservices for web scraping and proxy ma
 
 2. Scraping API: A FastAPI-based API that handles web scraping requests and utilizes proxies for fetching target URLs. Access the Scraping API at http://172.104.142.79
 
-3. Free Proxy API: Another FastAPI-based API that provides access to a list of free proxies and their details. Access the Free Proxy API at http://194.195.242.23
+3. Free Proxy API: Another FastAPI-based API that provides access to a list of free proxies and their details. Access the Free Proxy API at http://194.195.242.23/ 
 
 ## Usage
 
