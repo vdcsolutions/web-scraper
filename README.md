@@ -16,13 +16,13 @@ Scraping District is a collection of microservices for web scraping and proxy ma
 
 Access the services using the following endpoints:
 
-1. GUI with React.js: Access the GUI at http://143.42.57.97/. It provides a user-friendly interface for interacting with the Scraping API and performing web scraping tasks. Please refer to the GUI documentation for usage instructions.
+1. GUI with React.js: Access the GUI at http://143.42.57.97/. It provides a user-friendly interface for interacting with the Scraping API and performing web scraping tasks.
 
 2. Free Proxy API: Access the Free Proxy API at http://194.195.242.23/. This API provides information about free proxies.
   - Endpoint: `/live-proxy-list` (GET): Retrieve the newest proxies. The list is updated every 5 minutes.
   - Endpoint: `/proxy-list` (GET): Retrieve the complete list of proxies from last 24 hours.
 
-2. Scraping API: Access the Scraping API at http://172.104.142.79/. This API allows you to fetch target URLs and perform web scraping tasks using random proxies Free-Proxy-Api
+3. Scraping API: Access the Scraping API at http://172.104.142.79/. This API allows you to fetch target URLs and perform web scraping tasks using random proxies Free-Proxy-Api
 
   - Endpoint: `/scrape` (POST): Send a POST request to this endpoint with a JSON payload containing URLs to scrape and CSS/XPath selectors.
     - JSON Payload Schema:
