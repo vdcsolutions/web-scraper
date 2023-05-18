@@ -6,11 +6,13 @@ Scraping District
 
 Scraping District is a collection of microservices for web scraping and proxy management. It consists of three components:
 
-1. GUI with React.js: A user interface built with React.js for interacting with the scraping API and performing web scraping tasks. Access the GUI at http://143.42.57.97
+1. GUI with React.js: A user interface built with React.js for interacting with the scraping API and performing web scraping tasks. 
 
-2. Scraping API: A FastAPI-based API that handles web scraping requests and utilizes proxies for fetching target URLs. Access the Scraping API at http://172.104.142.79
+2. Scraping API: A FastAPI-based API that handles web scraping requests and utilizes proxies for fetching target URLs.
+3. 
+4. Free Proxy API: Another FastAPI-based API that provides access to a list of free proxies and their details.
 
-3. Free Proxy API: Another FastAPI-based API that provides access to a list of free proxies and their details. Access the Free Proxy API at http://194.195.242.23/ 
+4. MongoDB: NoSQL database to save all scraped data and free proxies.
 
 ## Usage
 
@@ -35,6 +37,7 @@ Access the services using the following endpoints:
             "type": "xpath" or "css",
             "selector": "your xpath or css selector string"
           },
+4. MongoDB: Hosted at http://http://139.162.146.205. It does not currently provide any features for user.
           ...
         ]
       }
