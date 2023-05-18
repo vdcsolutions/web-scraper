@@ -1,6 +1,9 @@
-# Project Name
+###!!APP IS TEMPORARY DISABLED!!### 
+###!!scraping-api microservice should be back up on 22.05.2023!!###
 
-Scraping District
+
+# Project Name
+Web-Scraper
 
 ## Project Overview
 
